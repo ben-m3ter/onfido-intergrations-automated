@@ -18,7 +18,7 @@ logger = logging.getLogger()
 logfile = None
 
 # load_dotenv("config/config.env")
-load_dotenv("config/config_onfido_preprod.env")
+load_dotenv("config/config_prod.env")
 
 # Set up key variables that are used in all classes and methods
 ENVIRONMENT = os.getenv('ENVIRONMENT')
